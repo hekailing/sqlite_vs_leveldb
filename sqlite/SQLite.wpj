@@ -1,0 +1,257 @@
+Document file - DO NOT EDIT
+
+<BEGIN> BUILD_MIPS64gnule_BUILDRULE
+archive
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_AR
+armips
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_ARCHIVE
+E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/MIPS64gnule/SQLite.a
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_AS
+ccmips
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_CC
+ccmips
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_CC_ARCH_SPEC
+-G 0 -mno-branch-likely -mips3 -EL
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_CFLAGS
+-O2 \
+	-G \
+	0 \
+	-mlong-calls \
+	-mno-branch-likely \
+	-mips3 \
+	-EL \
+	-ansi \
+	-fno-builtin \
+	-DMIPSEL \
+	-I. \
+	-I$(WIND_BASE)/target/h/ \
+	-I$(WIND_BASE)/target/h/wrn/coreip \
+	-DCPU=MIPS64 \
+	-DTOOL_FAMILY=gnu \
+	-DTOOL=gnule \
+	-D_WRS_KERNEL \
+	-DOS_VXWORKS=1 \
+	-D_HAVE_SQLITE_CONFIG_H \
+	-DSQLITE_THREADSAFE=0 \
+	-DSQLITE_OMIT_WAL \
+	-DSQLITE_OMIT_LOAD_EXTENSION \
+	-mlong-calls
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_CFLAGS_AS
+-g \
+	-G \
+	0 \
+	-mlong-calls \
+	-mno-branch-likely \
+	-mips3 \
+	-EL \
+	-ansi \
+	-fno-builtin \
+	-P \
+	-xassembler-with-cpp \
+	-DMIPSEL \
+	-I. \
+	-I$(WIND_BASE)/target/h/ \
+	-I$(WIND_BASE)/target/h/wrn/coreip \
+	-DCPU=MIPS64 \
+	-DTOOL_FAMILY=gnu \
+	-DTOOL=gnule \
+	-D_WRS_KERNEL \
+	-mlong-calls
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_CPP
+ccmips -E -P
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_HEX_FLAGS
+
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_LD
+ldmips
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_LDDEPS
+
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_LDFLAGS
+-EL -X -N
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_LD_PARTIAL
+ccmips -r -nostdlib -Wl,-EL -Wl,-X
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_LD_PARTIAL_FLAGS
+-EL -X -r
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_NM
+nmmips -g
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_OPTION_DEFINE_MACRO
+-D
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_OPTION_DEPEND
+-M -w
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_OPTION_GENERATE_DEPENDENCY_FILE
+-MD
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_OPTION_INCLUDE_DIR
+-I
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_OPTION_LANG_C
+-xc
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_OPTION_UNDEFINE_MACRO
+-U
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_POST_BUILD_RULE
+
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_PRJ_LIBS
+
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_SIZE
+sizemips
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_MACRO_TOOL_FAMILY
+gnu
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_RO_DEPEND_PATH
+{$(WIND_BASE)/target/h/} \
+	{$(WIND_BASE)/target/src/} \
+	{$(WIND_BASE)/target/h/wrn/coreip/} \
+	{$(WIND_BASE)/target/config/}
+<END>
+
+<BEGIN> BUILD_MIPS64gnule_TC
+::tc_MIPS64gnule
+<END>
+
+<BEGIN> BUILD_RULE_Project0.out
+
+<END>
+
+<BEGIN> BUILD_RULE_Project0.pl
+
+<END>
+
+<BEGIN> BUILD_RULE_SQLite.out
+
+<END>
+
+<BEGIN> BUILD_RULE_SQLite.pl
+
+<END>
+
+<BEGIN> BUILD_RULE_archive
+
+<END>
+
+<BEGIN> BUILD_RULE_objects
+
+<END>
+
+<BEGIN> BUILD__CURRENT
+MIPS64gnule
+<END>
+
+<BEGIN> BUILD__LIST
+MIPS64gnule
+<END>
+
+<BEGIN> CORE_INFO_TYPE
+::prj_vxApp
+<END>
+
+<BEGIN> CORE_INFO_VERSION
+2.2
+<END>
+
+<BEGIN> FILE_E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/SQLiteIO.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/SQLiteIO.c_dependencies
+$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/mips-wrs-vxworks/2.96-mips3264-010729/include/stddef.h \
+	$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/mips-wrs-vxworks/2.96-mips3264-010729/include/stdarg.h
+<END>
+
+<BEGIN> FILE_E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/SQLiteIO.c_objects
+SQLiteIO.o
+<END>
+
+<BEGIN> FILE_E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/SQLiteIO.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/config.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/sqlite3.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/sqlite3.c_dependencies
+$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/mips-wrs-vxworks/2.96-mips3264-010729/include/stdarg.h \
+	E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/config.h \
+	$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/mips-wrs-vxworks/2.96-mips3264-010729/include/stddef.h
+<END>
+
+<BEGIN> FILE_E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/sqlite3.c_objects
+sqlite3.o
+<END>
+
+<BEGIN> FILE_E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/sqlite3.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/sqlite3.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/sqlite3ext.h_dependDone
+TRUE
+<END>
+
+<BEGIN> PROJECT_FILES
+E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/sqlite3.c \
+	E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/SQLiteIO.c \
+	E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/config.h \
+	E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/sqlite3.h \
+	E:/VEAP/trunk/PlatformEdition/src/SQLiteDB/Source/sqlite3ext.h
+<END>
+
+<BEGIN> userComments
+<Enter description here>
+<END>
+
